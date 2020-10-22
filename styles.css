@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #777;
+}
+@font-face{
+    font-family: "font4.ttf"
+    src url("font4.ttf") format("ttf")
+}
+
+.main-header{
+    background-color: rgba(10, 0, 0, .6);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-image: url(bg.jpg);
+    padding-bottom: 30px;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+
+}
+.main-nav{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255, .3);
+}
+.main-nav li{
+    padding: 0 5%;
+}
+
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline;
+}
+.nav a{
+    display: inline-block;
+     padding: .6em;
+     color: rgba(255,255,255, .7);
+     text-decoration: none;
+
+}
+nav a:hover{
+    background-color: rgba(255,255,255, .3);
+}
+.name {
+        margin: 0;
+        font-family: "font4.ttf";
+        font-size: 4em;
+        color: rgba(255, 255, 255, 1);
+        text-align: center;
+        font-weight: normal;
+}
+
+.nameLarge{
+    font-size: 8em;
+    letter-spacing: 0.2em;
+}
+.sectionContent{
+      margin: 2em;
+}
+.sectionContainer{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.sectionAbout{
+    font: black;
+    text-align: center;
+    font-size: 2.5em;
+    letter-spacing: 0.2em;
+}
+.image{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 50%
+}
+.mainParagraph{
+    line-height: 1.3em;
+    word-spacing: 0.2em;
+    text-align: justify;
+    text-indent: 25px;
+}
+p.mainParagraph:first-letter{
+    font-size:200%;
+    font-weight: bold;
+}
+footer a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-footer{
+   background-color: #81E8F7;
+   text-align: center;
+   padding: .3em 0;
+}
+.main-footer li{
+    text-align: center;
+}
+.main-footer img{
+    width: 40px;
+    height: 40px;
+}
+
+h3{
+   color: rgba(255, 255, 255, 1)
+}
