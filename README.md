@@ -1,6 +1,4 @@
-HOWARD KAIRA
+
 
 BSC-INF-06-18 
-WEB ASSIGNMENT 2
 
-RUN index.html
